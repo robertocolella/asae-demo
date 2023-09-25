@@ -88,6 +88,8 @@ az spring create --name ${SPRING_APPS_SERVICE} \
     --location ${REGION} \
     --sku Enterprise \
     --enable-application-configuration-service \
+    --enable-application-live-view \
+    --enable-application-accelerator \
     --enable-service-registry \
     --enable-gateway \
     --enable-api-portal \
